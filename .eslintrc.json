@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": ["error", { "required": { "some": ["id", "nesting"] }}],
+    "no-restricted-globals": "off",
+    "prefer-destructuring": "warn",
+    "prefer-spread": "warn",
+    "react/require-default-props": "off",
+    "react/sort-comp": "off"
+  }
+}
